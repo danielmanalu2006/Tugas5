@@ -7,7 +7,9 @@ import praktic.geometry.interfaces.TwoDimensional;
 public class Circle extends CircularShape implements TwoDimensional {
 
     // Konstruktor default: radius & name belum di-set
-    public Circle() {}
+    public Circle() {
+        setName("2D Circle"); // Set nama bentuk menjadi "2D Circle"
+    }
 
     // Konstruktor dengan parameter radius
     public Circle(double radius) {
