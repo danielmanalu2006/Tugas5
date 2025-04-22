@@ -9,8 +9,10 @@ import praktic.geometry.interfaces.Weightable;
 public class Sphere extends CircularShape implements ThreeDimensional, Weightable {
     private double mass; // Massa bola (diperlukan untuk menghitung berat)
 
-    // Konstruktor tanpa parameter
-    public Sphere() {}
+    // Konstruktor
+    public Sphere() {
+        setName("3D Sphere"); // Set nama objek menjadi "3D Sphere"
+    }
 
     // Konstruktor dengan parameter radius dan massa
     public Sphere(double radius, double mass) {
