@@ -10,7 +10,7 @@ public class Cube extends Shape implements ThreeDimensional, Weightable {
     private double edge;  // Panjang sisi kubus
     private double mass;  // Massa kubus (diperlukan untuk menghitung berat)
 
-    // Konstruktor tanpa parameter
+    // Konstruktor
     public Cube() {
         setName("3D Cube"); // Set nama objek menjadi "3D Cube"
     }
