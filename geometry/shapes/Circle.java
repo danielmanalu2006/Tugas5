@@ -6,7 +6,7 @@ import praktic.geometry.interfaces.TwoDimensional;
 // Kelas Circle: bentuk lingkaran 2D, turunan CircularShape dan implement TwoDimensional
 public class Circle extends CircularShape implements TwoDimensional {
 
-    // Konstruktor default: radius & name belum di-set
+    // Konstruktor
     public Circle() {
         setName("2D Circle"); // Set nama bentuk menjadi "2D Circle"
     }
