@@ -8,8 +8,10 @@ import praktic.geometry.interfaces.TwoDimensional;
 public class Square extends Shape implements TwoDimensional {
     private double side; // Panjang sisi persegi
 
-    // Konstruktor default (tanpa parameter)
-    public Square() {}
+    // Konstruktor
+    public Square() {
+        setName("2D Square"); // Set nama objek menjadi "Square"
+    }
 
     // Konstruktor dengan parameter sisi
     public Square(double side) {
